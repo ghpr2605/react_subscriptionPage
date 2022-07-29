@@ -25,7 +25,21 @@ const Card = (props) => {
       <OuterCard>
         {packs.map((pack) => {
           return (
-            <IndividualCards key={pack.id} bg={pack.bgColor}></IndividualCards>
+            <IndividualCards key={pack.id} bg={pack.bgColor}>
+              <h2>{pack.planName}</h2>
+              <h4>{pack.description}</h4>
+              <div>
+                <h4>Price: {`Rs ${pack.price}`}</h4>
+                <h5>{`${pack.months} months`}</h5>
+              </div>
+              <div>
+                <ul>
+                  {pack.features.map((feature) => {
+                    return <li key={feature.id}>{feature.desc}</li>;
+                  })}
+                </ul>
+              </div>
+            </IndividualCards>
           );
         })}
       </OuterCard>

@@ -1,8 +1,8 @@
 export const subscriptions = [
   {
     id: "p1",
-    planName: "Mobile Only",
-    description: "Exclusive Originals & International Series",
+    planName: "Basic",
+    description: "Entertainment & Music",
     price: 599,
     months: 12,
     features: [
@@ -31,8 +31,8 @@ export const subscriptions = [
   },
   {
     id: "p2",
-    planName: "LIV Premium",
-    description: "Exclusive Originals & International Series",
+    planName: "Premium",
+    description: "Entertainment, Movies, Music & Sports",
     price: 999,
     months: 12,
     features: [
@@ -61,8 +61,8 @@ export const subscriptions = [
   },
   {
     id: "p3",
-    planName: "WWE Network",
-    description: "Exclusive ring action",
+    planName: "VIP",
+    description: "Exclusive Content + Originals",
     price: 299,
     months: 12,
     features: [
