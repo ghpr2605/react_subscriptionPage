@@ -8,23 +8,23 @@ export const subscriptions = [
     features: [
       {
         id: "f1",
-        desc: "Latest International Series"
+        desc: "Latest Music"
       },
       {
         id: "f2",
-        desc: "All Live Sports & Channels"
+        desc: "Latest TV Shows"
       },
       {
         id: "f3",
-        desc: "Live Events of WWE"
+        desc: "Live News Channel"
       },
       {
         id: "f4",
-        desc: "Download Episodes & watch anytime"
+        desc: "500+ Free Movies"
       },
       {
         id: "f5",
-        desc: "Ad's served only on non-fiction"
+        desc: "View on 1 device only in Basic Resolution"
       }
     ],
     bgColor: "aquamarine"
@@ -38,26 +38,34 @@ export const subscriptions = [
     features: [
       {
         id: "f6",
-        desc: "Latest International Series"
+        desc: "Latest Music with International Music Subscription"
       },
       {
         id: "f7",
-        desc: "All Live Sports & Channels"
+        desc: "Latest TV shows and 100 Free Web Series"
       },
       {
         id: "f8",
-        desc: "Live Events of WWE"
+        desc: "Live Events of News & Sports"
       },
       {
         id: "f9",
-        desc: "Download Episodes & watch anytime"
+        desc: "500+ Free Movies & Premium Movies"
       },
       {
         id: "f10",
+        desc: "View on 2 device only in HD Resolution"
+      },
+      {
+        id: "f11",
         desc: "Ad's served only on non-fiction"
+      },
+      {
+        id: "f12",
+        desc: "Download Episodes & watch anytime"
       }
     ],
-    bgColor: "blueviolet"
+    bgColor: "darksalmon"
   },
   {
     id: "p3",
@@ -67,22 +75,38 @@ export const subscriptions = [
     months: 12,
     features: [
       {
-        id: "f11",
-        desc: "Live WWE events"
-      },
-      {
-        id: "f12",
-        desc: "Unrestricted access to 10000+ hours of WWE Archives"
-      },
-      {
         id: "f13",
-        desc: "Exclusive WWE series & documentaries"
+        desc: "Latest Music with International Music Subscription"
       },
       {
         id: "f14",
-        desc: "RAW and Smackdown Episodes"
+        desc: "Latest TV shows and 100 Free Web Series"
+      },
+      {
+        id: "f115",
+        desc: "Latest VIP only Web Series"
+      },
+      {
+        id: "f16",
+        desc: "Live Events of News, Sports & TV Channels"
+      },
+      {
+        id: "f17",
+        desc: "500+ Free Movies,Premium Movies & VIP Movies"
+      },
+      {
+        id: "f18",
+        desc: "View on 4 device in HD/4k Resolution"
+      },
+      {
+        id: "f19",
+        desc: "Ad's Free on all the contents"
+      },
+      {
+        id: "f20",
+        desc: "Download Episodes & watch anytime"
       }
     ],
-    bgColor: "cadetblue"
+    bgColor: "darkturquoise"
   }
 ];

@@ -26,7 +26,9 @@ const Card = (props) => {
         {packs.map((pack) => {
           return (
             <IndividualCards key={pack.id} bg={pack.bgColor}>
-              <h2>{pack.planName}</h2>
+              <h2>
+                <u>{pack.planName}</u>
+              </h2>
               <h4>{pack.description}</h4>
               <div>
                 <h4>Price: {`Rs ${pack.price}`}</h4>
